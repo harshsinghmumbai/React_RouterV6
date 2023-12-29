@@ -1,6 +1,6 @@
-import { NavLink } from "react-router-dom";
+ import { NavLink } from "react-router-dom";
 
-const Home = () => {
+const Header = () => {
   return (
     <>
       <div className="flex">
@@ -10,7 +10,7 @@ const Home = () => {
             <ul className="flex space-x-9 text-xl font-bold text-gray-600 cursor-pointer">
               <li>
                 <NavLink to="/"> Home</NavLink>
-                {/* link comp is type Achor tag compulsory href="" */}
+                {/* Navlink comp is type Achor tag compulsory href="" */}
               </li>
               <li>
                 <NavLink to={"/about"}> About </NavLink>
@@ -22,11 +22,8 @@ const Home = () => {
           </nav>
         </header>
       </div>
-      <section>
-        <h1 className="text-lg font-semibold text-blue-600">Home Page</h1>
-      </section>
     </>
   );
-};
+}
 
-export default Home;
+export default Header
