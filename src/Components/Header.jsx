@@ -3,9 +3,11 @@
 const Header = () => {
   return (
     <>
-      <div className="flex">
-        <h1 className="text-xl text-green-600 font-semibold mr-16">Logo</h1>
-        <header>
+      <div className="w-full h-[4rem] border bg-gray-300">
+        <header className="flex justify-around w-[62rem] m-auto mt-3 ">
+          <h1 className="text-xl text-green-600 font-semibold mr-16">
+            Thapa technical
+          </h1>
           <nav>
             <ul className="flex space-x-9 text-xl font-bold text-gray-600 cursor-pointer">
               <li>
