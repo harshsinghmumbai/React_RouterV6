@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+//it help when user click on any Navlink(Home-About-Contact-Service) it direct to respective-place(where user want to go on WebApp) & also provide active class(customize color) //
 
 const Header = () => {
   return (
@@ -12,13 +13,13 @@ const Header = () => {
             <ul className="flex space-x-9 text-xl font-bold text-gray-600 cursor-pointer">
               <li>
                 <NavLink to="/"> Home</NavLink>
-                {/* Navlink comp is type Achor tag compulsory href="" */}
+                {/* Navlink comp. is type Achor tag compulsory href="" */}
               </li>
               <li>
-                <NavLink to={"/about"}> About </NavLink>
+                <NavLink to={"about"}> About </NavLink>
               </li>
               <li>
-                <NavLink to={"/contact"}> Contact </NavLink>
+                <NavLink to={"contact"}> Contact </NavLink>
               </li>
             </ul>
           </nav>
