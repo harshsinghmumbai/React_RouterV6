@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-//it help when user click on any Navlink(Home-About-Contact-Service) it direct to respective-place(where user want to go on WebApp) & also provide active class(customize color) //
+//it help when user click on any Navlink(Home-About-Contact-Service) it redirect to respective-place(where user want to go on WebApp) & also provide active class(customized color) //
 
 const Header = () => {
   return (
