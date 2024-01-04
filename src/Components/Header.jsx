@@ -4,12 +4,16 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <div className="w-full h-[4rem] border bg-gray-300">
-        <header className="flex justify-around w-[62rem] m-auto mt-3 ">
-          <h1 className="text-xl text-green-600 font-semibold mr-16">
-            Thapa technical
-          </h1>
-          <nav>
+      <header className=" w-full h-[4.10rem] border-b-0 shadow-lg flex justify-center">
+        <div className="w-full flex justify-around items-center ">
+          <p className="inline-block">
+            <img
+              src="/Images/logo_1.png"
+              alt=""
+              className="w-[14.25rem] h-[3.75rem]"
+            />
+          </p>
+          <nav className="inline-block">
             <ul className="flex space-x-9 text-xl font-bold text-gray-600 cursor-pointer">
               <li>
                 <NavLink to="/"> Home</NavLink>
@@ -23,8 +27,16 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-        </header>
-      </div>
+          <p className="inline-block">
+            <button className="border bg-gray-200 p-1 rounded-md mr-5 font-semibold">
+              Log in
+            </button>
+            <button className="bg-orange-600 text-white font-semibold p-2 rounded-lg">
+              Get started
+            </button>
+          </p>
+        </div>
+      </header>
     </>
   );
 };
