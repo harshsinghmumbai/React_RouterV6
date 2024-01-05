@@ -1,31 +1,30 @@
 import { useNavigate } from "react-router-dom";
+import { FaArrowCircleLeft } from "react-icons/fa";
 
 const About = () => {
-  const Navigate = useNavigate();
-
-  const gotoContact = () => {
-    Navigate("/contact"); //always give relative path//
+  const Naviagte = useNavigate();
+  const GoBack = () => {
+    Naviagte(-1);
   };
   return (
     <>
-      <section>
-        <h1 className="text-xl font-semibold ">About Page</h1>
-        <button
-          className="border-2 border-black bg-black text-white font-bold mt-8 mb-10 rounded-xl p-2"
-          onClick={gotoContact}
-        >
-          Go to Contact Page
-        </button>
-        <br />
-        <button
-          className="border-2 border-black bg-black text-white font-bold mt-8 mb-10 rounded-xl p-2"
-          onClick={() => {
-            Navigate(-1);
-          }}
-        >
-          Go_Back
-        </button>
-      </section>
+      <div className="flex justify-between w-[95%] h-[4.5rem] m-auto">
+        <p className="inline-block text-2xl mt-5">
+          <FaArrowCircleLeft onClick={GoBack} />
+        </p>
+      </div>
+
+      <div className=" border-t-2 border-orange-700 mt-4 p-5 flex">
+        <img
+          src="Images/img-3.jpg"
+          alt=""
+          className="border w-[40.25rem] h-[28.75rem] rounded-3xl"
+        />
+        <p className="ml-8">
+          <h1 className="text-4xl font-bold text-left mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, dolorum!</h1>
+          <p className="text-lg font-semibold font-mono text-center"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores porro ex odit assumenda, sed neque quaerat delectus alias molestias similique magni reprehenderit quibusdam fugiat dignissimos perferendis magnam qui quidem? Aliquam doloribus ipsum consequuntur quam deleniti at, similique, optio voluptates vero blanditiis veniam eos, corrupti laboriosam laudantium ducimus harum accusamus nisi itaque facilis. Vel similique nesciunt ipsam esse, natus, aliquam architecto.</p>
+        </p>
+      </div>
     </>
   );
 };

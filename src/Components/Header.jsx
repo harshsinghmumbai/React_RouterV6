@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 const Header = () => {
   return (
     <>
-      <header className=" w-full h-[4.10rem] border-b-0 shadow-lg flex justify-center">
+      <header className=" w-full h-[4.10rem] border-b-0 shadow-lg flex justify-center sticky top-0 left-0 bg-white ">
         <div className="w-full flex justify-around items-center ">
           <p className="inline-block">
             <img
