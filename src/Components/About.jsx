@@ -14,15 +14,27 @@ const About = () => {
         </p>
       </div>
 
-      <div className=" border-t-2 border-orange-700 mt-4 p-5 flex">
+      <div className=" border-t-2 border-orange-700 mt-4 p-5 flex justify-evenly">
         <img
           src="Images/img-3.jpg"
           alt=""
-          className="border w-[40.25rem] h-[28.75rem] rounded-3xl"
+          className="border w-[38rem] h-[23.75rem] rounded-3xl"
         />
-        <p className="ml-8">
-          <h1 className="text-4xl font-bold text-left mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente, dolorum!</h1>
-          <p className="text-lg font-semibold font-mono text-center"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores porro ex odit assumenda, sed neque quaerat delectus alias molestias similique magni reprehenderit quibusdam fugiat dignissimos perferendis magnam qui quidem? Aliquam doloribus ipsum consequuntur quam deleniti at, similique, optio voluptates vero blanditiis veniam eos, corrupti laboriosam laudantium ducimus harum accusamus nisi itaque facilis. Vel similique nesciunt ipsam esse, natus, aliquam architecto.</p>
+        <p className="ml-8 w-[38rem] h-[23.75rem]">
+          <h1 className="text-4xl font-bold text-left mb-2">
+            Lorem ipsum dolor sit amet, amet consectetur adipisicing elit. amet
+            Sapiente, dolorum!
+          </h1>
+          <p className="text-lg font-semibold font-mono text-center">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+            porro ex odit assumenda, sed neque quaerat delectus alias molestias
+            similique magni reprehenderit quibusdam fugiat dignissimos
+            perferendis magnam qui quidem? Aliquam doloribus ipsum consequuntur
+            quam deleniti at, similique, optio voluptates vero blanditiis veniam
+            eos, corrupti laboriosam laudantium ducimus harum accusamus nisi
+            itaque facilis. Vel similique nesciunt ipsam esse, natus, aliquam
+          
+          </p>
         </p>
       </div>
     </>

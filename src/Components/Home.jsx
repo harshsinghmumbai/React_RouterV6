@@ -17,14 +17,16 @@ const Home = () => {
           </button>
         </p>
       </div>
-      <div className="mb-8">
+      <div className="border-t-2 border-orange-700 mb-2">
         <div className="ml-72">
           <img
             src="/Images/img-2.png"
             alt=""
-            className="border rounded-lg w-[36rem] h-[24.25rem] "
+            className="border rounded-lg w-[36rem] h-[24.25rem] mt-2 "
           />
-          <p className="text-4xl font-semibold ml-2">Lorem, ipsum Lorem, ipsum..</p>
+          <p className="text-4xl font-semibold ml-2">
+            Lorem, ipsum Lorem, ipsum..
+          </p>
         </div>
       </div>
     </>
