@@ -3,7 +3,7 @@ import { IoLogoGooglePlaystore } from "react-icons/io5";
 const Home = () => {
   return (
     <>
-      <div className="flex justify-evenly w-full h-[19rem] mt-10 mb-7">
+      <div className="flex justify-evenly w-full h-[19rem] mt-5">
         <img src="/Images/img-1.jpg" alt="" className="border rounded-lg" />
         <p className="w-[24.5rem]">
           <h1 className="text-5xl font-extrabold">Download Now</h1>
@@ -22,7 +22,7 @@ const Home = () => {
           <img
             src="/Images/img-2.png"
             alt=""
-            className="border rounded-lg w-[36rem] h-[24.25rem] mt-2 "
+            className="border rounded-lg w-[30rem] h-[20rem] mt-2 "
           />
           <p className="text-4xl font-semibold ml-2">
             Lorem, ipsum Lorem, ipsum..

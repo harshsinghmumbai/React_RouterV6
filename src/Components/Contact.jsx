@@ -12,7 +12,7 @@ const Contact = () => {
     <>
       <div className="">
         {/* ---------------------------------Home Button--------------------------- */}
-        <div className=" mt-7 ml-5">
+        <div className=" mt-5 ml-5">
           <button
             className="bg-orange-500 text-white font-bold text-lg rounded-lg p-1"
             onClick={GotoHomePage}
@@ -22,7 +22,7 @@ const Contact = () => {
         </div>
 
         {/* --------------------------------Conatct page------------------------------ */}
-        <div className=" flex p-5 mt-5 justify-evenly mb-10">
+        <div className=" flex p-5 mt-5 justify-evenly mb-2">
           <div className="border w-[28.5rem] h-[16.5rem] p-5 rounded-lg bg-gray-300">
             <h1 className="text-5xl font-extrabold mb-2">Get in tounch:</h1>
             <h2 className="text-2xl font-semibold mb-4">
