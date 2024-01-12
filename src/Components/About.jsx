@@ -8,7 +8,7 @@ const About = () => {
   };
   return (
     <>
-      <div className="flex justify-between w-[95%] h-[4.5rem] m-auto">
+      <div className="flex justify-between w-[95%] h-[4.5rem] m-auto cursor-pointer">
         <p className="inline-block text-2xl mt-5">
           <FaArrowCircleLeft onClick={GoBack} />
         </p>

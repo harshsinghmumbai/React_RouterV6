@@ -7,7 +7,7 @@ const MainHeader = () => {
     <>
       <Header />
       <Outlet />
-    <Footer/>
+      <Footer />
     </>
   );
 };
