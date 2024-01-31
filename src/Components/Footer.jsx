@@ -6,7 +6,7 @@ const Footer = () => {
           <p className="h-[5.78rem]">
             <img
               className="w-[17.75rem] h-[5.75rem]"
-              src="Images/logo_1.png"
+              src="../Images/logo_1.png"
               alt=""
             />
           </p>
