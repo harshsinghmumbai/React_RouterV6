@@ -52,27 +52,27 @@ const Contact = () => {
               <label htmlFor="" className="">
                 <input
                   type="text"
-                  className="border-2 border-black w-[20.5rem] h-[3.5rem] rounded-md text-2xl font-semibold pl-5"
+                  className="border-2 border-black w-[20.5rem] h-[3.5rem] rounded-md text-2xl font-semibold pl-5 focus-state "
                   placeholder="Full Name"
                 />
               </label>
               <label htmlFor="" className="">
                 <input
                   type="text"
-                  className="border-2 border-black w-[20.5rem] h-[3.5rem] rounded-md text-2xl font-semibold pl-5 "
+                  className="border-2 border-black w-[20.5rem] h-[3.5rem] rounded-md text-2xl font-semibold pl-5 focus-state "
                   placeholder="Email"
                 />
               </label>
               <label htmlFor="" className="">
                 <input
                   type="number"
-                  className="border-2 border-black w-[20.5rem] h-[3.5rem] rounded-md text-2xl font-semibold pl-5"
+                  className="border-2 border-black w-[20.5rem] h-[3.5rem] rounded-md text-2xl font-semibold pl-5 focus-state "
                   placeholder="Mobile Number"
                 />
               </label>
               <button
                 type="submit"
-                className=" w-[11rem] h-[3rem] rounded-md text-2xl font-semibold bg-orange-500 text-white hover:bg-orange-600"
+                className=" w-[11rem] h-[3rem] rounded-md text-2xl font-semibold bg-orange-500 text-white hover:bg-orange-600 active:border-red-700 active:border-4 "
               >
                 Submit
               </button>

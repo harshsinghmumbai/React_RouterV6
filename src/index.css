@@ -1,5 +1,8 @@
 @tailwind base;
 @tailwind components;
+.focus-state {
+  @apply focus:border-red-500 focus:border-2 focus:shadow-md outline-none hover:bg-gray-100;
+}
 @tailwind utilities;
 
 .active {
